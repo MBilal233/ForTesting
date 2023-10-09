@@ -10,7 +10,7 @@ if (!userData && window.location.pathname === "/ForTesting/" || window.location.
 }else{
   window.location.assign("/ForTesting/")
 }
-if (userData && window.location.pathname === "/ForTesting/register.html") {
+if (userData && window.location.pathname === "/ForTesting/register.html" || window.location.pathname === '/ForTesting/register') {
   window.location.assign("/ForTesting/")
   console.log('hello world')
 }
