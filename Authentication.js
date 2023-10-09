@@ -9,5 +9,5 @@ if (!userData && window.location.pathname === "/" || window.location.pathname ==
   window.location.assign("/register.html");
 }
 if (userData && window.location.pathname === "/register.html" || window.location.pathname === 'register') {
-  window.location.assign("/");
+  window.location.assign("index.html");
 }
