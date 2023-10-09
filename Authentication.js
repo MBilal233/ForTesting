@@ -7,13 +7,15 @@ console.log(path);
 
 if (!userData && window.location.pathname === "/ForTesting/" || window.location.pathname === "/ForTesting/index.html" ) {
   window.location.assign("/ForTesting/register.html");
-}
-if (userData !== null && window.location.pathname === "/ForTesting/register.html" || window.location.pathname === '/ForTesting/register') {
+}else{
   window.location.assign("/ForTesting/")
-  console.log('hello world')
 }
+// if (userData !== null && window.location.pathname === "/ForTesting/register.html" || window.location.pathname === '/ForTesting/register') {
+//   window.location.assign("/ForTesting/")
+//   console.log('hello world')
+// }
 
-console.log(userData && window.location.pathname === "/ForTesting/register.html" || window.location.pathname === '/ForTesting/register' ? window.location.assign("/ForTesting/") : console.log('userData is not exist')  )
-console.log(userData)
+// console.log(userData && window.location.pathname === "/ForTesting/register.html" || window.location.pathname === '/ForTesting/register' ? window.location.assign("/ForTesting/") : console.log('userData is not exist')  )
+// console.log(userData)
 
-console.log(userData !== null && window.location.pathname === "/ForTesting/register.html" || window.location.pathname === '/ForTesting/register')
+// console.log(userData !== null && window.location.pathname === "/ForTesting/register.html" || window.location.pathname === '/ForTesting/register')
