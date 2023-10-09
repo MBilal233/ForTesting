@@ -34,7 +34,7 @@ btn.addEventListener("click", () => {
     email.classList.remove("validate");
     password.classList.remove("validate");
 
-    window.location.assign("/");
+    window.location.assign("/ForTesting/");
   }
 });
 
