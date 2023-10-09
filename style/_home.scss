@@ -1,0 +1,68 @@
+.homepage {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: url(../Images/wood-591631_1280.jpg);
+  z-index: 99;
+  position: relative;
+  z-index: 1;
+  color: white;
+  &::after {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    content: "";
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #2d2e4a;
+    opacity: 0.9;
+    z-index: -1;
+  }
+  .heading {
+    h1 {
+      font-weight: bold;
+    }
+  }
+}
+.homepage .discription p {
+  width: 630px;
+  text-align: center;
+  margin: 20px 0;
+}
+.homepage .button {
+  .btn {
+    background-color: #e84546;
+    padding: 8px 30px;
+    font-size: 10px;
+    color: #fbf1f2;
+    border-radius: 3px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .homepage .discription p {
+    width: 500px;
+  }
+}
+@media screen and (max-width: 577px) {
+  .homepage .discription p {
+    width: 400px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .homepage {
+    .heading {
+      h1 {
+        font-size: 25px;
+      }
+    }
+  }
+  .homepage .discription p {
+    width: 300px;
+  }
+}

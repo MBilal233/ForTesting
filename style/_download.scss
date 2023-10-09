@@ -1,0 +1,38 @@
+.download {
+  .container-fluid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px 0;
+    h1 {
+      font-size: 20px;
+      font-weight: 400;
+      color: #75797c;
+    }
+    p {
+      font-size: 10px;
+      font-weight: bold;
+      text-transform: uppercase;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+    .btn {
+      background-color: #e84546;
+      padding: 8px 60px;
+      font-size: 10px;
+      color: #fbf1f2;
+      border-radius: 3px;
+    }
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .download {
+    .container-fluid {
+      h1 {
+        font-size: 15px;
+      }
+    }
+  }
+}

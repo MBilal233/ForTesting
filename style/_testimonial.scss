@@ -1,0 +1,55 @@
+.testimonial {
+  .container-fluid {
+    .row {
+      padding: 50px 0;
+      .team-section {
+        background-color: aqua;
+        padding: 0;
+        .img-section {
+          width: 100%;
+          height: 100%;
+          img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center;
+          }
+        }
+      }
+      .review {
+        background-color: #523549;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+        color: #fffaff;
+        padding: 0 80px;
+        p {
+          text-transform: uppercase;
+          font-weight: bold;
+          font-size: 10px;
+        }
+        q {
+          font-family: "Dancing Script", cursive;
+          font-size: 20px;
+          margin: 15px 0;
+        }
+      }
+      .both-section {
+        height: 350px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .testimonial {
+    .container-fluid {
+      .row {
+        .review {
+          padding: 0 30px;
+        }
+      }
+    }
+  }
+}
