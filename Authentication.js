@@ -8,6 +8,6 @@ console.log(path);
 if (!userData && window.location.pathname === "/ForTesting/" || window.location.pathname === "/ForTesting/index.html" ) {
   window.location.assign("/ForTesting/register.html");
 }
-if (userData && window.location.pathname === "/ForTesting/register.html" || window.location.pathname === '/ForTesting/register') {
+if (!userData === null && window.location.pathname === "/ForTesting/register.html" || window.location.pathname === '/ForTesting/register') {
   window.location.assign("/ForTesting/");
 }
