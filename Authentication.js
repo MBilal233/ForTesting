@@ -10,10 +10,10 @@ if (!userData && window.location.pathname === "/ForTesting/" || window.location.
 }else{
   window.location.assign("/ForTesting/")
 }
-// if (userData !== null && window.location.pathname === "/ForTesting/register.html" || window.location.pathname === '/ForTesting/register') {
-//   window.location.assign("/ForTesting/")
-//   console.log('hello world')
-// }
+if (userData && window.location.pathname === "/ForTesting/register.html") {
+  window.location.assign("/ForTesting/")
+  console.log('hello world')
+}
 
 // console.log(userData && window.location.pathname === "/ForTesting/register.html" || window.location.pathname === '/ForTesting/register' ? window.location.assign("/ForTesting/") : console.log('userData is not exist')  )
 // console.log(userData)
